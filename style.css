@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding:0 80px;
+    margin: auto;
+}
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 0.5rem 0;
+    background:#353535;
+    font-family: 'ubuntu'sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+  
+ 
+}
+.navbar .menu li{
+    display: inline-block;
+    list-style: none;
+
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+   
+    
+}
+.navbar .menu li a:hover{
+    text-decoration: underline;
+}
+.home-content{
+    width: 100%;
+    height: 80vh;
+     padding-top: 100px;
+     background-color: black;
+     border: 1px solid black;
+     
+}
+/* adding diagnol part  */
+.diagnol{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    clip-path: polygon(100% 0%, 0% 0%, 100% 100%);
+}
+.text-1{
+    font-size: 320%;
+    margin: 8rem 39rem;
+    color: rgba(255, 255, 255, 0.726);
+    font-weight: 500;
+    align-items: center;
+    padding-left: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 73px;
+}
+.text-2{
+    font-size: 220%;
+    margin: -8rem 39rem;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: 500;
+    align-items: center;
+    padding-left: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main img{
+    margin:-10rem 28rem 0rem 27rem; ;
+    height: 13.5rem;
+    width: 13rem;
+}
+.skills p{
+    font-size: 220%;
+    font-weight: 600;
+    color: black;
+    margin: 4rem 10rem 2rem;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, serif;
+}
+section{
+    width: 80vw;
+    margin: 50px auto;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure{
+    width: 300px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px;
+    height: 20rem;
+    margin-top: -13em;
+}
+figure p1{
+    font-size: 20px;
+    font-family:'Roboto Slab', serif; 
+    text-decoration: underline;
+}
+figure p2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+figure p3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.list{
+    margin-top: 2em;
+}
+.list ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    list-style: none;
+}
+.logo img{
+    height: 3em;
+    width: 4em;
+    margin-left: 0em;
+}
+
+.projects{
+    width: 100%;
+    height: 80vh;
+     padding-top: 100px;
+     background-color: #e5e5e5;
+}
+.projects h2{
+    margin: 1rem 8rem;
+    text-decoration: underline;
+    font-size: 220%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.top-diag{
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 60px;
+    clip-path: polygon(-1% calc(100% + 1px),100% 0,100% calc(100% + 1px));
+}
+.bottom-diag{
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 60px;
+    clip-path: polygon(100% 0%, 0% 0%, 100% 100%);
+    
+}
+.projectimage1{
+    background-image: url('project.jpg');
+    background-size: cover;
+    margin: 2rem 7rem;
+    border: 1px solid #ccc;
+    height: 30vh;
+    width: 30vw;
+}
+.projectimage1:hover{
+    position: absolute;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    left: 7%;
+    top: 10%;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    transition: opacity .35s,transform .35s;
+    transform: scaleX(0);
+}
+.projectimage1 h3{
+    margin: 0rem 35rem;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.projectimage1 p{
+    margin: 0rem 35rem;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: ruby;
+}
+
+.contact h4{
+    font-size: 220%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
