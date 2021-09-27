@@ -174,18 +174,7 @@ figure p3{
     height: 30vh;
     width: 30vw;
 }
-.projectimage1:hover{
-    position: absolute;
-    overflow: hidden;
-    width: 80%;
-    height: 80%;
-    left: 7%;
-    top: 10%;
-    border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
-    transition: opacity .35s,transform .35s;
-    transform: scaleX(0);
-}
+
 .projectimage1 h3{
     margin: 0rem 35rem;
     font-size: 30px;
