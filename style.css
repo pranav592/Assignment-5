@@ -1,195 +1,120 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-.max-width{
-    max-width: 1300px;
-    padding:0 80px;
-    margin: auto;
-}
-/* navbar styling */
-.navbar{
-    position: fixed;
-    width: 100%;
-    padding: 0.5rem 0;
-    background:#353535;
-    font-family: 'ubuntu'sans-serif;
-}
-.navbar .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.navbar .logo a{
-    color: #fff;
-    font-size: 40px;
-    font-weight: 600;
-  
- 
-}
-.navbar .menu li{
-    display: inline-block;
-    list-style: none;
+<!DOCTYPE html>
+<html lang="en">
 
-}
-.navbar .menu li a{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-   
-    
-}
-.navbar .menu li a:hover{
-    text-decoration: underline;
-}
-.home-content{
-    width: 100%;
-    height: 80vh;
-     padding-top: 100px;
-     background-color: black;
-     border: 1px solid black;
-     
-}
-/* adding diagnol part  */
-.diagnol{
-    background-color: black;
-    width: 100%;
-    height: 60px;
-    clip-path: polygon(100% 0%, 0% 0%, 100% 100%);
-}
-.text-1{
-    font-size: 320%;
-    margin: 8rem 39rem;
-    color: rgba(255, 255, 255, 0.726);
-    font-weight: 500;
-    align-items: center;
-    padding-left: 3rem;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 73px;
-}
-.text-2{
-    font-size: 220%;
-    margin: -8rem 39rem;
-    color: rgba(255, 255, 255, 0.822);
-    font-weight: 500;
-    align-items: center;
-    padding-left: 3rem;
-    font-family: 'Times New Roman', Times, serif;
-}
-.main img{
-    margin:-10rem 28rem 0rem 27rem; ;
-    height: 13.5rem;
-    width: 13rem;
-}
-.skills p{
-    font-size: 220%;
-    font-weight: 600;
-    color: black;
-    margin: 4rem 10rem 2rem;
-    text-decoration: underline;
-    font-family: Arial, Helvetica, serif;
-}
-section{
-    width: 80vw;
-    margin: 50px auto;
-    /* border: 1px solid #ccc; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    font-family: Arial, Helvetica, sans-serif;
-}
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-figure{
-    width: 300px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 15px;
-    height: 20rem;
-    margin-top: -13em;
-}
-figure p1{
-    font-size: 20px;
-    font-family:'Roboto Slab', serif; 
-    text-decoration: underline;
-}
-figure p2{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
-}
-figure p3{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
-}
-.list{
-    margin-top: 2em;
-}
-.list ul li{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    list-style: none;
-}
-.logo img{
-    height: 3em;
-    width: 4em;
-    margin-left: 0em;
-}
+</head>
 
-.projects{
-    width: 100%;
-    height: 80vh;
-     padding-top: 100px;
-     background-color: #e5e5e5;
-}
-.projects h2{
-    margin: 1rem 8rem;
-    text-decoration: underline;
-    font-size: 220%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-}
-.top-diag{
-    background-color: #e5e5e5;
-    width: 100%;
-    height: 60px;
-    clip-path: polygon(-1% calc(100% + 1px),100% 0,100% calc(100% + 1px));
-}
-.bottom-diag{
-    background-color: #e5e5e5;
-    width: 100%;
-    height: 60px;
-    clip-path: polygon(100% 0%, 0% 0%, 100% 100%);
-    
-}
-.projectimage1{
-    background-image: url('project.jpg');
-    background-size: cover;
-    margin: 2rem 7rem;
-    border: 1px solid #ccc;
-    height: 30vh;
-    width: 30vw;
-}
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Pranav <span>Arora</span></a></div>
+            <ul class="menu">
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Resume pdf</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="home-content">
+        <div class="text-1">Hello,I am Pranav.</div>
+        <div class="text-2">And I am a Full Stack Developer</div>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <div class="main"><img src="portfolio.jpg" alt=""></div>
+    </div>
+    <div class="diagnol"></div>
+    <div class="skills">
+        <p>Skills</p>
+        <section>
+            <figure>
+                <p1>Languages</p1>
+                <div class="list">
+                    <ul>
+                        <li>C++</li>
+                        <div class="logo"><img src="c++.jpg" alt=""></div>
+                        <li>python</li>
+                        <div class="logo"><img src="python.jpg" alt=""></div>
+                        <li>Java</li>
+                        <div class="logo"><img src="Java.jpg" alt=""></div>
 
-.projectimage1 h3{
-    margin: 0rem 35rem;
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.projectimage1 p{
-    margin: 0rem 35rem;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: ruby;
-}
 
-.contact h4{
-    font-size: 220%;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
-}
+                    </ul>
+                </div>
+            </figure>
+
+            <figure>
+                <p2>Frontend</p2>
+                <div class="list">
+                    <ul>
+                        <li>HTML</li>
+                        <div class="logo"><img src="html.jpg" alt=""></div>
+                        <li>CSS</li>
+                        <div class="logo"><img src="css.jpg" alt=""></div>
+                        <li>Jquery</li>
+                        <div class="logo"><img src="jquery.jpg" alt=""></div>
+                    </ul>
+                </div>
+            </figure>
+
+            <figure>
+                <p3>Backend</p3>
+                <div class="list">
+                    <ul>
+                        <li>Node.Js</li>
+                        <div class="logo"><img src="nodejs.jpg" alt=""></div>
+                        <li>Django</li>
+                        <div class="logo"><img src="django.jpg" alt=""></div>
+                        <li>Mongo DB</li>
+                        <div class="logo"><img src="mongodb.jpg" alt=""></div>
+                    </ul>
+                </div>
+            </figure>
+
+        </section>
+    </div>
+
+    <div class="top-diag"></div>
+    <div class="projects">
+        <h2>Projects</h2>
+      <div class="projectimage1">
+          <h3>E-Commerce clone</h3>
+          <p>A fully web responsive E-commerce clone named D-MART </p>
+
+      </div>
+    </div>
+    <div class="bottom-diag"></div>
+    <div class="contact">
+        <h4>Contact me</h4>
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Full Name</label>
+              <input type="Full Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">E-Mail Address</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+</body>
+
+</html>
